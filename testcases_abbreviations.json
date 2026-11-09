@@ -1,0 +1,442 @@
+[
+  {
+    "category": "abbreviation",
+    "address": "12 HXH, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "268 HXH, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12/3 HXH, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12 H.X.H, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "268 H.X.H, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12/3 H.X.H, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12 hxh, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "268 hxh, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12/3 hxh, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12 LTK, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": "Lý Thường Kiệt",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "268 LTK, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": "Lý Thường Kiệt",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12/3 LTK, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": "Lý Thường Kiệt",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12 SVH, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": "Sư Vạn Hạnh",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "268 SVH, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": "Sư Vạn Hạnh",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12/3 SVH, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": "Sư Vạn Hạnh",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12 NTP, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": "Nguyễn Tri Phương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "268 NTP, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": "Nguyễn Tri Phương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12/3 NTP, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": "Nguyễn Tri Phương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "geographic_abbreviation_unknown",
+    "address": "BĐ qqqqqq, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "geographic_abbreviation_unknown",
+    "address": "BD qqqqqq, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "geographic_abbreviation_unknown",
+    "address": "B.Đ qqqqqq, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "geographic_abbreviation_unknown",
+    "address": "bđ qqqqqq, TP HCM",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12 HXH, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "268 HXH, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12/3 HXH, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12 H.X.H, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "268 H.X.H, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12/3 H.X.H, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12 hxh, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "268 hxh, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12/3 hxh, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12 LTK, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": "Lý Thường Kiệt",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "268 LTK, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": "Lý Thường Kiệt",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12/3 LTK, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": "Lý Thường Kiệt",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12 SVH, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": "Sư Vạn Hạnh",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "268 SVH, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": "Sư Vạn Hạnh",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12/3 SVH, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": "Sư Vạn Hạnh",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12 NTP, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": "Nguyễn Tri Phương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "268 NTP, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": "Nguyễn Tri Phương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "abbreviation",
+    "address": "12/3 NTP, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": "Nguyễn Tri Phương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "geographic_abbreviation_unknown",
+    "address": "BĐ qqqqqq, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "geographic_abbreviation_unknown",
+    "address": "BD qqqqqq, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "geographic_abbreviation_unknown",
+    "address": "B.Đ qqqqqq, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "geographic_abbreviation_unknown",
+    "address": "bđ qqqqqq, TP HCM",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  }
+]

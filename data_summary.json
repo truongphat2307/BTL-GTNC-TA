@@ -1,0 +1,13 @@
+{
+  "records": {
+    "before:province": 63,
+    "before:district": 696,
+    "before:ward": 10035,
+    "after:province": 34,
+    "after:ward": 3321,
+    "before:street": 4078,
+    "after:street": 4078
+  },
+  "testcases": 26720,
+  "street_scope": "Historical HCM only; no ward mapping"
+}

@@ -1,0 +1,1862 @@
+[
+  {
+    "category": "canonical",
+    "address": "Phường Minh Khai, Quận Hai Bà Trưng, Thành phố Hà Nội",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Phường Minh Khai",
+      "province": "Thành phố Hà Nội"
+    },
+    "actual": {
+      "street": "Hà Nội",
+      "ward": "Phường Minh Khai",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa mau long huyen yen minh tinh ha giang",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Mậu Long",
+      "province": "Tỉnh Hà Giang"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Xã Mậu Long",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa cai vien huyen ha quang tinh cao bang",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Cải Viên",
+      "province": "Tỉnh Cao Bằng"
+    },
+    "actual": {
+      "street": "Cây Bàng",
+      "ward": "Xã Cải Viên",
+      "province": null
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Xã Quang Thuận, Huyện Bạch Thông, Tỉnh Bắc Kạn",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Quang Thuận",
+      "province": "Tỉnh Bắc Kạn"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Bắc Kạn"
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Xã Xuân Quang, Huyện Chiêm Hóa, Tỉnh Tuyên Quang",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Xuân Quang",
+      "province": "Tỉnh Tuyên Quang"
+    },
+    "actual": {
+      "street": "Huyền Quang",
+      "ward": "Xã Xuân Quang",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "phuong sa pa thi xa sa pa tinh lao cai",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Phường Sa Pa",
+      "province": "Tỉnh Lào Cai"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Lào Cai"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "phuong sa pa thi xa sa pa tinh lao cai",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Phường Sa Pả",
+      "province": "Tỉnh Lào Cai"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Lào Cai"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "phuong quyet thang thanh pho lai chau tinh lai chau",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Phường Quyết Thắng",
+      "province": "Tỉnh Lai Châu"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Phường Quyết Thắng",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa minh quan huyen tran yen tinh yen bai",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Minh Quán",
+      "province": "Tỉnh Yên Bái"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Yên Bái"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa minh quan huyen tran yen tinh yen bai",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Minh Quân",
+      "province": "Tỉnh Yên Bái"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Yên Bái"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "thi tran cao loc huyen cao loc tinh lang son",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Thị trấn Cao Lộc",
+      "province": "Tỉnh Lạng Sơn"
+    },
+    "actual": {
+      "street": "Long Sơn",
+      "ward": "Thị trấn Cao Lộc",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa tan lap huyen bac son tinh lang son",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Tân Lập",
+      "province": "Tỉnh Lạng Sơn"
+    },
+    "actual": {
+      "street": "Long Sơn",
+      "ward": "Xã Tân Lập",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa quang duc huyen hai ha tinh quang ninh",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Quảng Đức",
+      "province": "Tỉnh Quảng Ninh"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Xã Quảng Đức",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "phuong minh thanh thi xa quang yen tinh quang ninh",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Phường Minh Thành",
+      "province": "Tỉnh Quảng Ninh"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Phường Minh Thành",
+      "province": null
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Thị trấn Vôi, Huyện Lạng Giang, Tỉnh Bắc Giang",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Thị trấn Vôi",
+      "province": "Tỉnh Bắc Giang"
+    },
+    "actual": {
+      "street": "Kinh Bắc",
+      "ward": "Thị trấn Vôi",
+      "province": null
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Xã Thái Hòa, Huyện Lập Thạch, Tỉnh Vĩnh Phúc",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Thái Hòa",
+      "province": "Tỉnh Vĩnh Phúc"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Xã Thái Hòa",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa truc hung huyen truc ninh tinh nam dinh",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Trực Hưng",
+      "province": "Tỉnh Nam Định"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Nam Định"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa truc hung huyen truc ninh tinh nam dinh",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Trực Hùng",
+      "province": "Tỉnh Nam Định"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Nam Định"
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Xã Liên Sơn, Huyện Gia Viễn, Tỉnh Ninh Bình",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Liên Sơn",
+      "province": "Tỉnh Ninh Bình"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Xã Liên Sơn",
+      "province": null
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Xã Trường Yên, Thành phố Hoa Lư, Tỉnh Ninh Bình",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Trường Yên",
+      "province": "Tỉnh Ninh Bình"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Xã Trường Yên",
+      "province": null
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Phường Quảng Hưng, Thành phố Thanh Hóa, Tỉnh Thanh Hóa",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Phường Quảng Hưng",
+      "province": "Tỉnh Thanh Hóa"
+    },
+    "actual": {
+      "street": "Bình Thành",
+      "ward": "Phường Quảng Hưng",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa co lung huyen ba thuoc tinh thanh hoa",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Cổ Lũng",
+      "province": "Tỉnh Thanh Hóa"
+    },
+    "actual": {
+      "street": "Bình Thành",
+      "ward": "Xã Cổ Lũng",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa ngoc lien huyen ngoc lac tinh thanh hoa",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Ngọc Liên",
+      "province": "Tỉnh Thanh Hóa"
+    },
+    "actual": {
+      "street": "Bình Thành",
+      "ward": "Xã Ngọc Liên",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa vinh hung huyen vinh loc tinh thanh hoa",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Vĩnh Hưng",
+      "province": "Tỉnh Thanh Hóa"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Thanh Hóa"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa vinh hung huyen vinh loc tinh thanh hoa",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Vĩnh Hùng",
+      "province": "Tỉnh Thanh Hóa"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Thanh Hóa"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa hoang phu huyen hoang hoa tinh thanh hoa",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Hoằng Phú",
+      "province": "Tỉnh Thanh Hóa"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Thanh Hóa"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa hoang quy huyen hoang hoa tinh thanh hoa",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Hoằng Quỳ",
+      "province": "Tỉnh Thanh Hóa"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Thanh Hóa"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa hoang quy huyen hoang hoa tinh thanh hoa",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Hoằng Quý",
+      "province": "Tỉnh Thanh Hóa"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Thanh Hóa"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa hoang dong huyen hoang hoa tinh thanh hoa",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Hoằng Đồng",
+      "province": "Tỉnh Thanh Hóa"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Thanh Hóa"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa hoang thanh huyen hoang hoa tinh thanh hoa",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Hoằng Thành",
+      "province": "Tỉnh Thanh Hóa"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Thanh Hóa"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa hoang dong huyen hoang hoa tinh thanh hoa",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Hoằng Đông",
+      "province": "Tỉnh Thanh Hóa"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Thanh Hóa"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa hoang thanh huyen hoang hoa tinh thanh hoa",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Hoằng Thanh",
+      "province": "Tỉnh Thanh Hóa"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Thanh Hóa"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa hoang phu huyen hoang hoa tinh thanh hoa",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Hoằng Phụ",
+      "province": "Tỉnh Thanh Hóa"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Thanh Hóa"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa hoa loc huyen hau loc tinh thanh hoa",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Hòa Lộc",
+      "province": "Tỉnh Thanh Hóa"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Thanh Hóa"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa hoa loc huyen hau loc tinh thanh hoa",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Hoa Lộc",
+      "province": "Tỉnh Thanh Hóa"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Thanh Hóa"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa nga thanh huyen nga son tinh thanh hoa",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Nga Thanh",
+      "province": "Tỉnh Thanh Hóa"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Thanh Hóa"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa nga thanh huyen nga son tinh thanh hoa",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Nga Thành",
+      "province": "Tỉnh Thanh Hóa"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Thanh Hóa"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa xuan hoa huyen nhu xuan tinh thanh hoa",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Xuân Hòa",
+      "province": "Tỉnh Thanh Hóa"
+    },
+    "actual": {
+      "street": "Bình Thành",
+      "ward": "Xã Xuân Hòa",
+      "province": null
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Phường Hải Thượng, Thị xã Nghi Sơn, Tỉnh Thanh Hóa",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Phường Hải Thượng",
+      "province": "Tỉnh Thanh Hóa"
+    },
+    "actual": {
+      "street": "Bình Thành",
+      "ward": "Phường Hải Thượng",
+      "province": null
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Xã Mường Nọc, Huyện Quế Phong, Tỉnh Nghệ An",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Mường Nọc",
+      "province": "Tỉnh Nghệ An"
+    },
+    "actual": {
+      "street": "Dương Đình Nghệ",
+      "ward": "Xã Mường Nọc",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa chau binh huyen quy chau tinh nghe an",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Châu Bính",
+      "province": "Tỉnh Nghệ An"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Nghệ An"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa chau binh huyen quy chau tinh nghe an",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Châu Bình",
+      "province": "Tỉnh Nghệ An"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Nghệ An"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa nam can huyen ky son tinh nghe an",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Nậm Cắn",
+      "province": "Tỉnh Nghệ An"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Nghệ An"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa nam can huyen ky son tinh nghe an",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Nậm Càn",
+      "province": "Tỉnh Nghệ An"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Nghệ An"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa chau tien huyen quy hop tinh nghe an",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Châu Tiến",
+      "province": "Tỉnh Nghệ An"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Nghệ An"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa dien hong huyen dien chau tinh nghe an",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Diễn Hồng",
+      "province": "Tỉnh Nghệ An"
+    },
+    "actual": {
+      "street": "Dương Đình Nghệ",
+      "ward": "Xã Diễn Hồng",
+      "province": null
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Xã Diễn Phong, Huyện Diễn Châu, Tỉnh Nghệ An",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Diễn Phong",
+      "province": "Tỉnh Nghệ An"
+    },
+    "actual": {
+      "street": "Dương Đình Nghệ",
+      "ward": "Xã Diễn Phong",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa dien ky huyen dien chau tinh nghe an",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Diễn Kỷ",
+      "province": "Tỉnh Nghệ An"
+    },
+    "actual": {
+      "street": "Dương Đình Nghệ",
+      "ward": "Xã Diễn Kỷ",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa dong thanh huyen yen thanh tinh nghe an",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Đồng Thành",
+      "province": "Tỉnh Nghệ An"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Nghệ An"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa dong thanh huyen yen thanh tinh nghe an",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Đông Thành",
+      "province": "Tỉnh Nghệ An"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Nghệ An"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa nghi van huyen nghi loc tinh nghe an",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Nghi Văn",
+      "province": "Tỉnh Nghệ An"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Nghệ An"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa nghi van huyen nghi loc tinh nghe an",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Nghi Vạn",
+      "province": "Tỉnh Nghệ An"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Nghệ An"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa hung trung huyen hung nguyen tinh nghe an",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Hưng Trung",
+      "province": "Tỉnh Nghệ An"
+    },
+    "actual": {
+      "street": "Dương Đình Nghệ",
+      "ward": "Xã Hưng Trung",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa ky hoa thi xa ky anh tinh ha tinh",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Kỳ Hoa",
+      "province": "Tỉnh Hà Tĩnh"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Xã Kỳ Hoa",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa tay trach huyen bo trach tinh quang binh",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Tây Trạch",
+      "province": "Tỉnh Quảng Bình"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Xã Tây Trạch",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa tan lap huyen huong hoa tinh quang tri",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Tân Lập",
+      "province": "Tỉnh Quảng Trị"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Xã Tân Lập",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa hai chanh huyen hai lang tinh quang tri",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Hải Chánh",
+      "province": "Tỉnh Quảng Trị"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Xã Hải Chánh",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "thi tran sia huyen quang dien thanh pho hue",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Thị trấn Sịa",
+      "province": "Thành phố Huế"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Thị trấn Sịa",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "phuong huong van thi xa huong tra thanh pho hue",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Phường Hương Vân",
+      "province": "Thành phố Huế"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Thành phố Huế"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "phuong huong van thi xa huong tra thanh pho hue",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Phường Hương Văn",
+      "province": "Thành phố Huế"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Thành phố Huế"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa hong ha huyen a luoi thanh pho hue",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Hồng Hạ",
+      "province": "Thành phố Huế"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Xã Hồng Hạ",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa hoa khuong huyen hoa vang thanh pho da nang",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Hòa Khương",
+      "province": "Thành phố Đà Nẵng"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Xã Hòa Khương",
+      "province": null
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Xã Đại Hiệp, Huyện Đại Lộc, Tỉnh Quảng Nam",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Đại Hiệp",
+      "province": "Tỉnh Quảng Nam"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Xã Đại Hiệp",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa tra don huyen nam tra my tinh quang nam",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Trà Dơn",
+      "province": "Tỉnh Quảng Nam"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Quảng Nam"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa tra don huyen nam tra my tinh quang nam",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Trà Don",
+      "province": "Tỉnh Quảng Nam"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Quảng Nam"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa tam dan huyen phu ninh tinh quang nam",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Tam Đàn",
+      "province": "Tỉnh Quảng Nam"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Quảng Nam"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa tam dan huyen phu ninh tinh quang nam",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Tam Dân",
+      "province": "Tỉnh Quảng Nam"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Quảng Nam"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa binh thanh huyen binh son tinh quang ngai",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Bình Thạnh",
+      "province": "Tỉnh Quảng Ngãi"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Quảng Ngãi"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa binh thanh huyen binh son tinh quang ngai",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Bình Thanh",
+      "province": "Tỉnh Quảng Ngãi"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Quảng Ngãi"
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Xã Xuân Phương, Thị xã Sông Cầu, Tỉnh Phú Yên",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Xuân Phương",
+      "province": "Tỉnh Phú Yên"
+    },
+    "actual": {
+      "street": "Bình Phú",
+      "ward": "Xã Xuân Phương",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "phuong vinh hoa thanh pho nha trang tinh khanh hoa",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Phường Vĩnh Hòa",
+      "province": "Tỉnh Khánh Hòa"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Phường Vĩnh Hòa",
+      "province": null
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Phường Phú Tài, Thành phố Phan Thiết, Tỉnh Bình Thuận",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Phường Phú Tài",
+      "province": "Tỉnh Bình Thuận"
+    },
+    "actual": {
+      "street": "Bình Thuận",
+      "ward": "Phường Phú Tài",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa phan hiep huyen bac binh tinh binh thuan",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Phan Hiệp",
+      "province": "Tỉnh Bình Thuận"
+    },
+    "actual": {
+      "street": "Bình Thuận",
+      "ward": "Xã Phan Hiệp",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa dong tien huyen ham thuan bac tinh binh thuan",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Đông Tiến",
+      "province": "Tỉnh Bình Thuận"
+    },
+    "actual": {
+      "street": "Bình Thuận",
+      "ward": "Xã Đông Tiến",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa dak roong huyen kbang tinh gia lai",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Đăk Roong",
+      "province": "Tỉnh Gia Lai"
+    },
+    "actual": {
+      "street": "Bình Giã",
+      "ward": "Xã Đăk Roong",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa ia bang huyen chu prong tinh gia lai",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Ia Băng",
+      "province": "Tỉnh Gia Lai"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Gia Lai"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa ia bang huyen chu prong tinh gia lai",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Ia Bang",
+      "province": "Tỉnh Gia Lai"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Gia Lai"
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Phường Tân An, Thành phố Buôn Ma Thuột, Tỉnh Đắk Lắk",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Phường Tân An",
+      "province": "Tỉnh Đắk Lắk"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Phường Tân An",
+      "province": null
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Thị trấn Pơng Drang, Huyện Krông Búk, Tỉnh Đắk Lắk",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Thị trấn Pơng Drang",
+      "province": "Tỉnh Đắk Lắk"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Thị trấn Pơng Drang",
+      "province": null
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Xã Ea H'MLay, Huyện M'Đrắk, Tỉnh Đắk Lắk",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Ea H'MLay",
+      "province": "Tỉnh Đắk Lắk"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Xã Ea H'MLay",
+      "province": null
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Xã Krông Nô, Huyện Lắk, Tỉnh Đắk Lắk",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Krông Nô",
+      "province": "Tỉnh Đắk Lắk"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Xã Krông Nô",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa gia vien huyen da huoai tinh lam dong",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Gia Viễn",
+      "province": "Tỉnh Lâm Đồng"
+    },
+    "actual": {
+      "street": "Dương Đông",
+      "ward": "Xã Gia Viễn",
+      "province": null
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Phường Tân Thiện, Thành phố Đồng Xoài, Tỉnh Bình Phước",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Phường Tân Thiện",
+      "province": "Tỉnh Bình Phước"
+    },
+    "actual": {
+      "street": "Phú Lộc",
+      "ward": "Phường Tân Thiện",
+      "province": null
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Xã Đa Kia, Huyện Bù Gia Mập, Tỉnh Bình Phước",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Đa Kia",
+      "province": "Tỉnh Bình Phước"
+    },
+    "actual": {
+      "street": "Phú Lộc",
+      "ward": "Xã Đa Kia",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa loc thanh huyen loc ninh tinh binh phuoc",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Lộc Thạnh",
+      "province": "Tỉnh Bình Phước"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Bình Phước"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa loc thanh huyen loc ninh tinh binh phuoc",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Lộc Thành",
+      "province": "Tỉnh Bình Phước"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Bình Phước"
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Phường Bình Chuẩn, Thành phố Thuận An, Tỉnh Bình Dương",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Phường Bình Chuẩn",
+      "province": "Tỉnh Bình Dương"
+    },
+    "actual": {
+      "street": "Bình Đường",
+      "ward": "Phường Bình Chuẩn",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa trung lap thuong huyen cu chi thanh pho ho chi minh",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Trung Lập Thượng",
+      "province": "Thành phố Hồ Chí Minh"
+    },
+    "actual": {
+      "street": "Trung Lập",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa tan long huyen thu thua tinh long an",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Tân Long",
+      "province": "Tỉnh Long An"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Xã Tân Long",
+      "province": null
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Xã Bình Trinh Đông, Huyện Tân Trụ, Tỉnh Long An",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Bình Trinh Đông",
+      "province": "Tỉnh Long An"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Xã Bình Trinh Đông",
+      "province": null
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Xã Thạnh Mỹ, Huyện Tân Phước, Tỉnh Tiền Giang",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Thạnh Mỹ",
+      "province": "Tỉnh Tiền Giang"
+    },
+    "actual": {
+      "street": "Tiền Giang",
+      "ward": "Xã Thạnh Mỹ",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa dong thanh thi xa binh minh tinh vinh long",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Đông Thạnh",
+      "province": "Tỉnh Vĩnh Long"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Vĩnh Long"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa dong thanh thi xa binh minh tinh vinh long",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Đông Thành",
+      "province": "Tỉnh Vĩnh Long"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Vĩnh Long"
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Xã Hòa Bình, Huyện Trà Ôn, Tỉnh Vĩnh Long",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Hòa Bình",
+      "province": "Tỉnh Vĩnh Long"
+    },
+    "actual": {
+      "street": "Vinh Long",
+      "ward": "Xã Hòa Bình",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa phu thanh huyen phu tan tinh an giang",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Phú Thạnh",
+      "province": "Tỉnh An Giang"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh An Giang"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa phu thanh huyen phu tan tinh an giang",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Phú Thành",
+      "province": "Tỉnh An Giang"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh An Giang"
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Thị trấn Tri Tôn, Huyện Tri Tôn, Tỉnh An Giang",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Thị trấn Tri Tôn",
+      "province": "Tỉnh An Giang"
+    },
+    "actual": {
+      "street": "Hàn Giang",
+      "ward": "Thị trấn Tri Tôn",
+      "province": null
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Xã Hòa An, Huyện Chợ Mới, Tỉnh An Giang",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Hòa An",
+      "province": "Tỉnh An Giang"
+    },
+    "actual": {
+      "street": "Hàn Giang",
+      "ward": null,
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa dinh my huyen thoai son tinh an giang",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Định Mỹ",
+      "province": "Tỉnh An Giang"
+    },
+    "actual": {
+      "street": "Hàn Giang",
+      "ward": "Xã Định Mỹ",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "phuong 1 thanh pho bac lieu tinh bac lieu",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Phường 1",
+      "province": "Tỉnh Bạc Liêu"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa vinh hung huyen vinh loi tinh bac lieu",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Vĩnh Hưng",
+      "province": "Tỉnh Bạc Liêu"
+    },
+    "actual": {
+      "street": "Kinh Bắc",
+      "ward": "Xã Vĩnh Hưng",
+      "province": null
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Thị trấn Châu Hưng, Huyện Vĩnh Lợi, Tỉnh Bạc Liêu",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Thị trấn Châu Hưng",
+      "province": "Tỉnh Bạc Liêu"
+    },
+    "actual": {
+      "street": "Kinh Bắc",
+      "ward": "Thị trấn Châu Hưng",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa hoa tan thanh pho ca mau tinh ca mau",
+    "version": "before",
+    "expected": {
+      "street": null,
+      "ward": "Xã Hòa Tân",
+      "province": "Tỉnh Cà Mau"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Xã Hòa Tân",
+      "province": null
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Xã An Khánh, Thành phố Hà Nội",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": "Xã An Khánh",
+      "province": "Thành phố Hà Nội"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Thành phố Hà Nội"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "phuong ba xuyen tinh thai nguyen",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": "Phường Bá Xuyên",
+      "province": "Tỉnh Thái Nguyên"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Phường Bá Xuyên",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa van lang tinh thai nguyen",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": "Xã Văn Lang",
+      "province": "Tỉnh Thái Nguyên"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Thái Nguyên"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa van lang tinh thai nguyen",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": "Xã Văn Lăng",
+      "province": "Tỉnh Thái Nguyên"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Thái Nguyên"
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Xã An Thành, Thành phố Hải Phòng",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": "Xã An Thành",
+      "province": "Thành phố Hải Phòng"
+    },
+    "actual": {
+      "street": null,
+      "ward": "Xã An Thành",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa cam giang thanh pho hai phong",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": "Xã Cẩm Giang",
+      "province": "Thành phố Hải Phòng"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Thành phố Hải Phòng"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa cam giang thanh pho hai phong",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": "Xã Cẩm Giàng",
+      "province": "Thành phố Hải Phòng"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Thành phố Hải Phòng"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa son ha tinh quang ngai",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": "Xã Sơn Hà",
+      "province": "Tỉnh Quảng Ngãi"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Quảng Ngãi"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa son ha tinh quang ngai",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": "Xã Sơn Hạ",
+      "province": "Tỉnh Quảng Ngãi"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Quảng Ngãi"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa ba to tinh quang ngai",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": "Xã Ba Tơ",
+      "province": "Tỉnh Quảng Ngãi"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Quảng Ngãi"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa ba to tinh quang ngai",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": "Xã Ba Tô",
+      "province": "Tỉnh Quảng Ngãi"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Quảng Ngãi"
+    }
+  },
+  {
+    "category": "canonical",
+    "address": "Xã Bắc Ruộng, Tỉnh Lâm Đồng",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": "Xã Bắc Ruộng",
+      "province": "Tỉnh Lâm Đồng"
+    },
+    "actual": {
+      "street": "Dương Đông",
+      "ward": "Xã Bắc Ruộng",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "phuong long khanh tinh dong nai",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": "Phường Long Khánh",
+      "province": "Tỉnh Đồng Nai"
+    },
+    "actual": {
+      "street": "Đồng Nai",
+      "ward": "Phường Long Khánh",
+      "province": null
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa loc thanh tinh dong nai",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": "Xã Lộc Thạnh",
+      "province": "Tỉnh Đồng Nai"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Đồng Nai"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa loc thanh tinh dong nai",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": "Xã Lộc Thành",
+      "province": "Tỉnh Đồng Nai"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Đồng Nai"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa thanh an thanh pho ho chi minh",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": "Xã Thanh An",
+      "province": "Thành phố Hồ Chí Minh"
+    },
+    "actual": {
+      "street": "Hà Thanh",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa thanh an thanh pho ho chi minh",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": "Xã Thạnh An",
+      "province": "Thành phố Hồ Chí Minh"
+    },
+    "actual": {
+      "street": "Hà Thanh",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa tan thanh tinh tay ninh",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": "Xã Tân Thành",
+      "province": "Tỉnh Tây Ninh"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Tây Ninh"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa tan thanh tinh tay ninh",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": "Xã Tân Thạnh",
+      "province": "Tỉnh Tây Ninh"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Tây Ninh"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa tan thanh tinh dong thap",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": "Xã Tân Thành",
+      "province": "Tỉnh Đồng Tháp"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Đồng Tháp"
+    }
+  },
+  {
+    "category": "no_accents",
+    "address": "xa tan thanh tinh dong thap",
+    "version": "after",
+    "expected": {
+      "street": null,
+      "ward": "Xã Tân Thạnh",
+      "province": "Tỉnh Đồng Tháp"
+    },
+    "actual": {
+      "street": null,
+      "ward": null,
+      "province": "Tỉnh Đồng Tháp"
+    }
+  }
+]

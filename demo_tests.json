@@ -1,0 +1,278 @@
+[
+  {
+    "id": 1,
+    "category": "Đầy đủ",
+    "address": "268 Lý Thường Kiệt, Phường Diên Hồng, TP HCM",
+    "version": "after",
+    "database": "real",
+    "expected": {
+      "street": "Lý Thường Kiệt",
+      "ward": "Phường Diên Hồng",
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "id": 2,
+    "category": "Không dấu",
+    "address": "268 Ly Thuong Kiet, Dien Hong, TP HCM",
+    "version": "after",
+    "database": "real",
+    "expected": {
+      "street": "Lý Thường Kiệt",
+      "ward": "Phường Diên Hồng",
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "id": 3,
+    "category": "Dính chữ",
+    "address": "268 LyThuongKiet, DienHong, TPHCM",
+    "version": "after",
+    "database": "real",
+    "expected": {
+      "street": "Lý Thường Kiệt",
+      "ward": "Phường Diên Hồng",
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "id": 4,
+    "category": "Viết tắt HXH",
+    "address": "12 HXH, TP HCM",
+    "version": "after",
+    "database": "real",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "id": 5,
+    "category": "Viết tắt có dấu chấm",
+    "address": "12/3 H.X.H, TP. HCM",
+    "version": "after",
+    "database": "real",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "id": 6,
+    "category": "Viết tắt chữ thường",
+    "address": "12 hxh, tphcm",
+    "version": "after",
+    "database": "real",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "id": 7,
+    "category": "Alias LTK",
+    "address": "268 LTK, Diên Hồng, TP HCM",
+    "version": "after",
+    "database": "real",
+    "expected": {
+      "street": "Lý Thường Kiệt",
+      "ward": "Phường Diên Hồng",
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "id": 8,
+    "category": "Alias SVH",
+    "address": "10 SVH, TP HCM",
+    "version": "after",
+    "database": "real",
+    "expected": {
+      "street": "Sư Vạn Hạnh",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "id": 9,
+    "category": "Alias NTP",
+    "address": "20 NTP, TP HCM",
+    "version": "after",
+    "database": "real",
+    "expected": {
+      "street": "Nguyễn Tri Phương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "id": 10,
+    "category": "OCR sai một ký tự",
+    "address": "268 Ly Thuong Kiet, Dien Hongg, TP HCM",
+    "version": "after",
+    "database": "real",
+    "expected": {
+      "street": "Lý Thường Kiệt",
+      "ward": "Phường Diên Hồng",
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "id": 11,
+    "category": "Thiếu phường",
+    "address": "12 HXH, TP HCM",
+    "version": "after",
+    "database": "real",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "id": 12,
+    "category": "Phường không có trong database",
+    "address": "12 HXH, qqqqqq, TP HCM",
+    "version": "after",
+    "database": "real",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "id": 13,
+    "category": "Trước sáp nhập",
+    "address": "Xã Thuận Thành, Huyện Cần Giuộc, Tỉnh Long An",
+    "version": "before",
+    "database": "real",
+    "expected": {
+      "street": null,
+      "ward": "Xã Thuận Thành",
+      "province": "Tỉnh Long An"
+    }
+  },
+  {
+    "id": 14,
+    "category": "HXH trước sáp nhập",
+    "address": "12 HXH, TP HCM",
+    "version": "before",
+    "database": "real",
+    "expected": {
+      "street": "Hồ Xuân Hương",
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "id": 15,
+    "category": "BĐ không có địa danh trong từ điển",
+    "address": "BĐ qqqqqq, TP HCM",
+    "version": "after",
+    "database": "real",
+    "expected": {
+      "street": null,
+      "ward": null,
+      "province": "Thành phố Hồ Chí Minh"
+    }
+  },
+  {
+    "id": 16,
+    "category": "Hoàn toàn không biết",
+    "address": "zzzzzz qqqqqq",
+    "version": "after",
+    "database": "real",
+    "expected": {
+      "street": null,
+      "ward": null,
+      "province": null
+    }
+  },
+  {
+    "id": 17,
+    "category": "Chuỗi rỗng",
+    "address": "",
+    "version": "after",
+    "database": "real",
+    "expected": {
+      "street": null,
+      "ward": null,
+      "province": null
+    }
+  },
+  {
+    "id": 18,
+    "category": "Địa chỉ dài 80 token",
+    "address": "zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz zzzzz",
+    "version": "after",
+    "database": "real",
+    "expected": {
+      "street": null,
+      "ward": null,
+      "province": null
+    }
+  },
+  {
+    "id": 19,
+    "category": "Bán đảo - dữ liệu giả lập",
+    "address": "BĐ Minh Họa, Tỉnh Minh Họa",
+    "version": "after",
+    "database": "synthetic",
+    "expected": {
+      "street": "Bán đảo Minh Họa",
+      "ward": null,
+      "province": "Tỉnh Minh Họa"
+    }
+  },
+  {
+    "id": 20,
+    "category": "Bán đảo - dữ liệu giả lập",
+    "address": "BD Minh Họa, Tỉnh Minh Họa",
+    "version": "after",
+    "database": "synthetic",
+    "expected": {
+      "street": "Bán đảo Minh Họa",
+      "ward": null,
+      "province": "Tỉnh Minh Họa"
+    }
+  },
+  {
+    "id": 21,
+    "category": "Bán đảo - dữ liệu giả lập",
+    "address": "B.Đ Minh Họa, Tỉnh Minh Họa",
+    "version": "after",
+    "database": "synthetic",
+    "expected": {
+      "street": "Bán đảo Minh Họa",
+      "ward": null,
+      "province": "Tỉnh Minh Họa"
+    }
+  },
+  {
+    "id": 22,
+    "category": "Bán đảo - dữ liệu giả lập",
+    "address": "bđ Minh Họa, Tỉnh Minh Họa",
+    "version": "after",
+    "database": "synthetic",
+    "expected": {
+      "street": "Bán đảo Minh Họa",
+      "ward": null,
+      "province": "Tỉnh Minh Họa"
+    }
+  },
+  {
+    "id": 23,
+    "category": "Bán đảo - dữ liệu giả lập",
+    "address": "bán đảo Minh Họa, Tỉnh Minh Họa",
+    "version": "after",
+    "database": "synthetic",
+    "expected": {
+      "street": "Bán đảo Minh Họa",
+      "ward": null,
+      "province": "Tỉnh Minh Họa"
+    }
+  }
+]

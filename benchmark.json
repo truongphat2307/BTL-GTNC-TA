@@ -1,0 +1,45 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "load_seconds": 1.4936268999881577,
+  "requests": 26828,
+  "passed": 26704,
+  "failed": 124,
+  "accuracy": 0.9953779633219025,
+  "mean_seconds": 0.0023877967422096316,
+  "p95_seconds": 0.0048896,
+  "p99_seconds": 0.0072363,
+  "max_seconds": 0.0394079,
+  "requests_over_005": 0,
+  "groups": {
+    "canonical": [
+      13326,
+      13356
+    ],
+    "no_accents": [
+      13262,
+      13356
+    ],
+    "unknown": [
+      2,
+      2
+    ],
+    "street": [
+      6,
+      6
+    ],
+    "abbreviation": [
+      36,
+      36
+    ],
+    "geographic_abbreviation_unknown": [
+      8,
+      8
+    ],
+    "latency_stress_80_tokens": [
+      64,
+      64
+    ]
+  },
+  "note": "Generated dictionary-derived tests, not private test accuracy. Startup excluded."
+}

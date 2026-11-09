@@ -1,0 +1,15 @@
+[
+  {
+    "id": "demo:p",
+    "kind": "province",
+    "name": "Tỉnh Minh Họa",
+    "version": "after"
+  },
+  {
+    "id": "demo:s",
+    "kind": "street",
+    "name": "Bán đảo Minh Họa",
+    "parent_id": "demo:p",
+    "version": "after"
+  }
+]
