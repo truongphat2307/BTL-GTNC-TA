@@ -26,6 +26,14 @@ Muốn thêm testcase, copy một object trong mảng, đổi id/address/expecte
 
 ## 3. Thử địa chỉ của anh
 
+Tệp `data_mau.jsonl` có một địa chỉ mỗi dòng, kèm phiên bản dữ liệu. Chạy cả tệp trong PowerShell bằng lệnh dưới đây. Kết quả xuất theo thứ tự các dòng đầu vào. Thêm `--district` để hiện huyện của địa chỉ cũ.
+
+```powershell
+cmd /c "python -X utf8 segmenter.py --district < data_mau.jsonl"
+```
+
+Để chạy một địa chỉ riêng, dùng `--address`.
+
 ```powershell
 python -X utf8 segmenter.py --version after --address "12 HXH, TP HCM"
 python -X utf8 segmenter.py --version after --address "268 LTK, Diên Hồng, TP HCM"
